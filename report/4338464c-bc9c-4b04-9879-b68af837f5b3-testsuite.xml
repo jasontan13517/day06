@@ -1,0 +1,73 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1552963572560" stop="1552963572629">
+  <name>test01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1552963572560" status="passed" stop="1552963572579">
+      <name>Test01.test01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3240-MainThread"/>
+        <label name="host" value="MacBook-tannatosa"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1552963572579" status="passed" stop="1552963572579">
+          <name>新增地址方法被执行</name>
+          <title>新增地址方法被执行</title>
+          <attachments>
+            <attachment source="076af4e6-567f-4704-ae0b-5d3328c50d5c-attachment.txt" title="点击新增地址按钮：" type="text/plain"/>
+            <attachment source="4ac6f958-9da7-4fbc-9985-2ec2456c8213-attachment.txt" title="点击新增输入收件人：" type="text/plain"/>
+            <attachment source="70ffd800-5a69-4e94-9199-d00a1226910c-attachment.txt" title="点击新增输入手机号：" type="text/plain"/>
+            <attachment source="830fefa0-0659-4279-b51c-d9006ad58274-attachment.txt" title="点击新增输入收货地址：" type="text/plain"/>
+            <attachment source="b7383512-356c-4d9c-afe4-145906c10e26-attachment.txt" title="点击新增输入点击新增：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1552963572582" status="passed" stop="1552963572582">
+      <name>Test01.test02</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3240-MainThread"/>
+        <label name="host" value="MacBook-tannatosa"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1552963572582" status="passed" stop="1552963572582">
+          <name>test02</name>
+          <title>test02</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1552963572582" status="failed" stop="1552963572629">
+      <name>Test01.test03</name>
+      <failure>
+        <message>FileNotFoundError: [Errno 2] No such file or directory: './image/faile.png'</message>
+        <stack-trace>self = &lt;test01.Test01 object at 0x035E31D0&gt;
+
+    def test03(self):
+        print('断言失败，截图并写入报告')
+&gt;       with open ('./image/faile.png','rb')as f:
+E       FileNotFoundError: [Errno 2] No such file or directory: './image/faile.png'
+
+scripts\test01.py:23: FileNotFoundError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3240-MainThread"/>
+        <label name="host" value="MacBook-tannatosa"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
